@@ -1,0 +1,149 @@
+
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sqwoz Bab — Дискография</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0 20px 40px 20px;
+      line-height: 1.7;
+    }
+    h1 {
+      text-align: center;
+      color: #ffffff;
+      font-family: 'Arial Black', Impact, sans-serif;
+      font-size: 48px;
+      margin: 40px 0 30px 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.3);
+    }
+    .menu {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 40px;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .menu a {
+      flex: 1;
+      min-width: 150px;
+      text-align: center;
+      padding: 12px 20px;
+      text-decoration: none;
+      color: #ffffff;
+      border: 2px solid #333;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      background-color: #1a1a1a;
+    }
+    .menu a:hover, .menu a.active {
+      background-color: #ff0000;
+      border-color: #ff0000;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);
+    }
+    .list-container {
+      text-align: center;
+      font-size: 21px;
+      line-height: 2;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .list-container h3 {
+      color: #ff0000;
+      font-size: 26px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .list-container ul { list-style: none; padding: 0; }
+    .list-container li {
+      padding: 10px;
+      border-bottom: 1px solid #222;
+      transition: background 0.3s;
+    }
+    .list-container li:hover {
+      background-color: #1a1a1a;
+      border-radius: 5px;
+    }
+    .img-container { text-align: center; margin: 40px 0; }
+    .img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+      border: 1px solid #333;
+    }
+    hr {
+      width: 60%;
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, transparent, #ff0000, transparent);
+      margin: 50px auto;
+    }
+    footer {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #777;
+      margin-top: 30px;
+    }
+    @media (max-width: 768px) {
+      h1 { font-size: 36px; }
+      .menu a { min-width: 100%; }
+      .list-container { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Дискография</h1>
+
+  <nav class="menu">
+    <a href="index.html">Общая информация</a>
+    <a href="История.html">История</a>
+    <a href="Концерты.html">Концерты</a>
+    <a href="Дискография.html" class="active">Дискография</a>
+    <a href="Источники.html">Источники</a>
+  </nav>
+
+  <div class="list-container">
+    <h3>Альбомы</h3>
+    <ul>
+      <li>Pussy Sultan (2018) — дебют</li>
+      <li>Turbo (2019)</li>
+      <li>Body Language (2020)</li>
+      <li>Flowjob (2021)</li>
+      <li>2 Boyz No Cap (2022, совместно с Джараховым)</li>
+    </ul>
+
+    <h3>Синглы и хиты</h3>
+    <ul>
+      <li>«АУФ» (2020, с The First Station)</li>
+      <li>«Ой» (2020)</li>
+      <li>«Бывший» (2020, с группой «Хлеб»)</li>
+      <li>«Розовая луна» (2022, с Клавой Кокой и Джараховым)</li>
+      <li>«Пых-Пых» (2024)</li>
+      <li>«Купер» (2025)</li>
+    </ul>
+  </div>
+
+  <div class="img-container">
+    <img src="8.jpg" alt="Обложка альбома">
+  </div>
+
+  <hr>
+  <footer>&copy; Все права защищены.</footer>
+</body>
+</html>

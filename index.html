@@ -1,0 +1,141 @@
+
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sqwoz Bab — Общая информация</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0 20px 40px 20px;
+      line-height: 1.7;
+    }
+    h1 {
+      text-align: center;
+      color: #ffffff;
+      font-family: 'Arial Black', Impact, sans-serif;
+      font-size: 48px;
+      margin: 40px 0 30px 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.3);
+    }
+    .menu {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 40px;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .menu a {
+      flex: 1;
+      min-width: 150px;
+      text-align: center;
+      padding: 12px 20px;
+      text-decoration: none;
+      color: #ffffff;
+      border: 2px solid #333;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      background-color: #1a1a1a;
+    }
+    .menu a:hover, .menu a.active {
+      background-color: #ff0000;
+      border-color: #ff0000;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);
+    }
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: justify;
+      font-size: 19px;
+      color: #d1d1d1;
+    }
+    .content p { margin-bottom: 20px; }
+    .img-container { text-align: center; margin: 40px 0; }
+    .img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+      border: 1px solid #333;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 40px auto;
+      max-width: 1000px;
+    }
+    .gallery img {
+      width: 30%;
+      min-width: 250px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover { transform: scale(1.05); }
+    hr {
+      width: 60%;
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, transparent, #ff0000, transparent);
+      margin: 50px auto;
+    }
+    footer {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #777;
+      margin-top: 30px;
+    }
+    @media (max-width: 768px) {
+      h1 { font-size: 36px; }
+      .menu a { min-width: 100%; }
+      .content { font-size: 17px; text-align: left; }
+      .gallery img { width: 100%; max-width: 400px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Sqwoz Bab</h1>
+
+  <nav class="menu">
+    <a href="index.html" class="active">Общая информация</a>
+    <a href="История.html">История</a>
+    <a href="Концерты.html">Концерты</a>
+    <a href="Дискография.html">Дискография</a>
+    <a href="Источники.html">Источники</a>
+  </nav>
+
+  <div class="img-container">
+    <img src="1.jpg" alt="Sqwoz Bab">
+  </div>
+
+  <div class="content">
+    <p>Sqwoz Bab — Марат Газманов, переехавший из Йошкар-Олы в Москву, чтобы стать актером.</p>
+    <p>Этого не произошло, но он нашел себя в другом — стал писать камеди-рэп на бытовые темы вроде поездки к девушке в очень отдаленный район и желания прикупить стильный пуховик.</p>
+    <p>Этого хватило, чтобы на Марата обратили внимание Big Russian Boss и Kyivstoner, с которыми он сейчас сотрудничает. А еще — поучаствовать в «Диссе псов» для «Вечернего Урганта».</p>
+  </div>
+
+  <div class="gallery">
+    <img src="2.jpg" alt="Фото Sqwoz Bab">
+    <img src="3.jpg" alt="Фото Sqwoz Bab">
+    <img src="4.jpg" alt="Фото Sqwoz Bab">
+  </div>
+
+  <hr>
+  <footer>&copy; Все права защищены.</footer>
+</body>
+</html>
